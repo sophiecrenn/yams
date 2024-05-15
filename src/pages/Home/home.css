@@ -1,0 +1,25 @@
+.homeContainer{
+    width:100%;
+    height:auto;
+    background-image: url(home.png);
+    background-size: cover;
+  background-repeat: no-repeat;
+  width:50vw;
+  height:100vh;
+  margin-top:-200px;
+  margin-left:500px;
+}
+
+.homeButton{
+    margin-left:905px;
+    padding:10px;
+    border:1px solid green;
+    text-decoration: none;
+    color:greenyellow;
+    background-color: green;
+}
+
+.homeButton:hover{
+    color:black;
+    background-color: chartreuse;
+}
