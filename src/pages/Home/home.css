@@ -1,8 +1,6 @@
 .homeContainer{
-    width:100%;
-    height:auto;
-    background-image: url(home.png);
-    background-size: cover;
+background-image: url(home.png);
+background-size: cover;
   background-repeat: no-repeat;
   width:50vw;
   height:100vh;

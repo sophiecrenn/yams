@@ -1,0 +1,21 @@
+.pastriesContainer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.pastriesCards {
+  display: flex;
+  border:1px solid green;
+    border-radius: 8px;
+    margin: 20px;
+    width: 300px;
+  }
+  
+  .pastriesDetails {
+    margin-top: 12px;
+    text-align: center;
+  }
+
+  .pastriesDetails h3{
+    margin:0px 0px 0px 10px;
+  }

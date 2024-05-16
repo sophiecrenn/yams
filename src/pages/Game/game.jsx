@@ -52,8 +52,8 @@ const GamePage = () => {
     <div className="rules">
     </div>
     <div className="rightContainer">
-      <button className="rollButton" onClick={rollDice} disabled={rollsLeft === 0}>Lancer les dés</button>
-      <button className="resetButton" onClick={resetGame}>Recommencer</button>
+      <button className="rollButton" onClick={rollDice} disabled={rollsLeft === 0}>Roll the dice</button>
+      <button className="resetButton" onClick={resetGame}>Reset</button>
       <div>
         {dice.map((die, index) => (
           <button className="dice" key={index} onClick={() => toggleSelected(index)}>

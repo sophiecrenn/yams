@@ -1,0 +1,26 @@
+.navBar{
+width:100%;
+background-color: rgba(144,238,144,0.37);
+overflow: hidden;
+}
+
+.navBar ul{
+    float:center;
+    display:flex;
+}
+
+.navBar li{
+    list-style-type: none;
+}
+
+.homeNav, .loginNav{
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    padding: 14px 16px;
+    font-size: 17px;
+}
+
+.homeNav:hover, .loginNav:hover{
+    color:yellow;
+}

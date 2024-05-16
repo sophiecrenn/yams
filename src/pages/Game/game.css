@@ -6,30 +6,42 @@
 }
 
 .rules{
-    background-image: url(rules.png);
-    background-size: cover;
+background-image: url(rules.png);
+background-size: cover;
   background-repeat: no-repeat;
   width:40vw;
   height:100vh;
   margin-top:-100px;
-  margin-left:200px;
 }
 
 .rightContainer{
     margin-left:100px;
     border:1px solid green;
+    border-radius: 10px;
     padding: 50px;
+    background-color: beige;
 }
 .rollButton, .resetButton, .dice{
+    font-size: 30px;
+    padding: 10px;
+    color:white;
     margin:8px;
     border:none;
     background-color: #020024;
+    border-radius:10px;
 }
 
 .rollButton:hover{
     background-color:green;
+    transform: scale(1.1);
 }
 
 .resetButton:hover{
     background-color: red;
+    transform: scale(1.1);
+}
+
+.rightContainer p{
+    font-size: 20px;
+    font-weight:800;
 }
